@@ -23,7 +23,7 @@ function App() {
 
     return (
         <div className="App">
-<script src="https://unpkg.dev/@vladmandic/face-api/dist/face-api.js"></script>
+
             {currentUser
                 ? (
                     <button className='button logout' onClick={handleLogout}>Log out</button>
